@@ -11,7 +11,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 // MongoDB connection string
 // Replace with your actual connection string
-const mongoDB = 'mongodb+srv://ordlib:<Bbjp732!>@cluster0.gy5pp6i.mongodb.net/';
+const mongoDB = 'mongodb+srv://ordlib:Bbjp732!@cluster0.gy5pp6i.mongodb.net/';
 mongoose.connect(mongoDB, { useNewUrlParser: true, useUnifiedTopology: true });
 
 // Define the schema for the beta users
